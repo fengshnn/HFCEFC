@@ -9,7 +9,7 @@ Step 1. Import raw individual signals collected by piezoelectric sensors
 Step 2. Click "Locate and Display"  
 Step 3. Slide the window to preprocess and separate BCG and respiration signals  
 Step 4. Save BCG and respiration signals  
-
+```
 2.Segmentation: Segment the signals and remove motion artifacts.  
 Run MATLAB 2021a
 ```python  
@@ -19,13 +19,13 @@ Step 2. Then run Untitled2.m
 Manually remove segments with motion artifacts using the threshold method.  
 Step 3. Then run Untitled3.m  
 Consolidate subject data for subsequent manual and deep feature calculations.  
-
+```
 3.Manual feature extraction: Manual feature extraction on BCG and respiration signals.  
 Using MATLAB 2021a
 ```python  
 Step 1. First run main_timeFeature.m in the T1-13 folder to calculate features T1-T13.  
 Step 2. Then run main_BCG_MulVolatility.m to calculate features T14-T33.  
-
+```
 4.Deep learning: Extract deep features from the signals and build a fusion classification model.  
 Using PyCharm,  
 Python Environment Requirements  
@@ -42,5 +42,5 @@ Step 3: Run Resnet18.py (corresponding to Resnet18 in Table 3 of the paper).
 Step 4: Run ResnetLSTM18.py (corresponding to Resnet18-BiLSTM in Table 3 of the paper).  
 Step 5: Run ResnetLSTM18_add_mulScale.py (corresponding to MS-Resnet18-BiLSTM in Table 3 of the paper).  
 Step 6: Run MF+MS-Resnet18-BiLSTM+CA (MF+DF).py (corresponding to MF+MS-Resnet18-BiLSTM+CA (MF+DF) in Table 3 of the paper).  
-
+```
 
