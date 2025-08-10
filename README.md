@@ -1,6 +1,6 @@
 This is the official code for "Heart failure diagnosis and ejection fraction classification via feature fusion model using non-contact vital sign signals"
 
-![Uploading fig1.jpg…]()
+![algorithm diagram](fig1.jpg)
 
 1.QT-pyside2: Separate non-contact vital signs signals into BCG and respiration signals.  
 Open the software: Run the main file  
